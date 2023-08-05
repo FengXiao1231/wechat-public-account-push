@@ -112,6 +112,9 @@ const USER_CONFIG = {
         {
           type: '生日', name: '倾倾宝贝', year: '2004', date: '01-19',
         },
+        {
+          type: '节日', name: '一周年纪念日', year: '2023', date: '12-31',
+        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [

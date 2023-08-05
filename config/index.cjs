@@ -76,7 +76,7 @@ const USER_CONFIG = {
     eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: 5,
+    weather: 4,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     networkHot: 3,
@@ -117,6 +117,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-12-31' },
+        { keyword: 'memorial_day', date: '2022-12-31' },
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程

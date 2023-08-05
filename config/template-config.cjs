@@ -106,21 +106,6 @@ const TEMPLATE_CONFIG = [
 
       {{tian_api_weather_tips_3.DATA}}
       
-      ---
-            
-      **我所在的城市**
-      
-      城市：{{city.DATA}}
-      
-      天气：{{tian_api_weather_weather_0.DATA}}
-      
-      气温(最高/最低):{{tian_api_weather_highest_0.DATA}} / {{tian_api_weather_lowest_0.DATA}}
-
-      降雨量：{{tian_api_weather_pcpn_0.DATA}}
-      
-      风向: {{tian_api_weather_wind_0.DATA}}
-      
-      风级: {{tian_api_weather_windsc_0.DATA}}
 
      `
   },

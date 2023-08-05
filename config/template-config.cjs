@@ -20,7 +20,7 @@ const TEMPLATE_CONFIG = [
       
       {{birthday_message.DATA}}
 
-      {{wx_memorial_day.DATA}}
+      {{memorial_day.DATA}}
       
       ---
 
@@ -42,7 +42,7 @@ const TEMPLATE_CONFIG = [
 
       降雨量：{{tian_api_weather_pcpn_0.DATA}}
 
-      紫外线强度：{{tian_api_weather_nv_index_0.DATA}}
+      紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
       
       风向: {{tian_api_weather_wind_0.DATA}}
       
@@ -64,7 +64,7 @@ const TEMPLATE_CONFIG = [
       
       降雨量：{{tian_api_weather_pcpn_0.DATA}}
 
-      紫外线强度：{{tian_api_weather_nv_index_0.DATA}}
+      紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
       
       风向: {{tian_api_weather_wind_1.DATA}}
       
@@ -82,7 +82,7 @@ const TEMPLATE_CONFIG = [
 
       降雨量：{{tian_api_weather_pcpn_0.DATA}}
 
-      紫外线强度：{{tian_api_weather_nv_index_0.DATA}}
+      紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
       
       风向: {{tian_api_weather_wind_2.DATA}}
       
@@ -100,7 +100,7 @@ const TEMPLATE_CONFIG = [
 
       降雨量：{{tian_api_weather_pcpn_0.DATA}}
 
-      紫外线强度：{{tian_api_weather_nv_index_0.DATA}}
+      紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
       
       风向: {{tian_api_weather_wind_3.DATA}}
       
@@ -118,7 +118,7 @@ const TEMPLATE_CONFIG = [
       
       气温(最高/最低):{{tian_api_weather_highest_0.DATA}} / {{tian_api_weather_lowest_0.DATA}}
 
-      降雨概率：{{tian_api_weather_pop_0.DATA}}
+      降雨量：{{tian_api_weather_pcpn_0.DATA}}
       
       风向: {{tian_api_weather_wind_0.DATA}}
       

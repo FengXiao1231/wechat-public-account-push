@@ -111,6 +111,115 @@ const TEMPLATE_CONFIG = [
   },
   {
     id: '0002',
+    title: '亲爱的倾倾宝贝, 早上好鸭',
+    desc: `
+      **{{date.DATA}}**
+      
+      下个休息日：{{holidaytts.DATA}}
+
+      {{note_en.DATA}}
+
+      {{note_ch.DATA}}
+      
+      ---
+      
+      宝贝么么哒~
+      
+      今天是我们在一起的第**{{love_day.DATA}}**天
+      
+      {{birthday_message.DATA}}
+      
+      ---
+
+      {{course_schedule.DATA}}
+      
+      {{moment_copyrighting.DATA}}
+
+      ---
+      
+      **你所在的城市**
+      
+      城市：{{city.DATA}}
+      
+      **今日{{tian_api_weather_date_0.DATA}}**
+      
+      天气：{{tian_api_weather_weather_0.DATA}}
+      
+      气温(最高/最低):{{tian_api_weather_highest_0.DATA}} / {{tian_api_weather_lowest_0.DATA}}
+
+      降雨量：{{tian_api_weather_pcpn_0.DATA}}
+
+      紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
+      
+      风向: {{tian_api_weather_wind_0.DATA}}
+      
+      风级: {{tian_api_weather_windsc_0.DATA}}
+
+      {{notice.DATA}}
+
+      {{tian_api_weather_tips_0.DATA}}
+      
+      {{comprehensive_horoscope.DATA}}
+
+      ---
+
+      **{{tian_api_weather_date_1.DATA}}**
+      
+      天气：{{tian_api_weather_weather_1.DATA}}
+      
+      气温(最高/最低):{{tian_api_weather_highest_1.DATA}} / {{tian_api_weather_lowest_1.DATA}}
+      
+      降雨量：{{tian_api_weather_pcpn_0.DATA}}
+
+      紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
+      
+      风向: {{tian_api_weather_wind_1.DATA}}
+      
+      风级: {{tian_api_weather_windsc_1.DATA}}
+
+      {{tian_api_weather_tips_1.DATA}}
+      
+      ---
+
+      **{{tian_api_weather_date_2.DATA}}**
+      
+      天气：{{tian_api_weather_weather_2.DATA}}
+      
+      气温(最高/最低):{{tian_api_weather_highest_2.DATA}} / {{tian_api_weather_lowest_2.DATA}}
+
+      降雨量：{{tian_api_weather_pcpn_0.DATA}}
+
+      紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
+      
+      风向: {{tian_api_weather_wind_2.DATA}}
+      
+      风级: {{tian_api_weather_windsc_2.DATA}}
+
+      {{tian_api_weather_tips_2.DATA}}
+      
+      ---
+
+      **{{tian_api_weather_date_3.DATA}}**
+      
+      天气：{{tian_api_weather_weather_3.DATA}}
+      
+      气温(最高/最低):{{tian_api_weather_highest_3.DATA}} / {{tian_api_weather_lowest_3.DATA}}
+
+      降雨量：{{tian_api_weather_pcpn_0.DATA}}
+
+      紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
+      
+      风向: {{tian_api_weather_wind_3.DATA}}
+      
+      风级: {{tian_api_weather_windsc_3.DATA}}
+
+      {{tian_api_weather_tips_3.DATA}}
+      
+
+     `
+  },
+  {
+    id: '0003',
     title: '推送完成提醒',
     desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}

@@ -14,6 +14,22 @@ const TEMPLATE_CONFIG = [
       
       ---
       
+      宝贝么么哒~
+      
+      今天是我们在一起的第**{{love_day.DATA}}**天
+      
+      {{birthday_message.DATA}}
+
+      {{wx_memorial_day.DATA}}
+      
+      ---
+
+      {{course_schedule.DATA}}
+      
+      {{moment_copyrighting.DATA}}
+
+      ---
+      
       **你所在的城市**
       
       城市：{{city.DATA}}
@@ -97,20 +113,6 @@ const TEMPLATE_CONFIG = [
       风向: {{wind_direction.DATA}}
       
       风级: {{wind_scale.DATA}}
-      
-      ---
-      
-      宝贝么么哒~
-      
-      今天是我们在一起的第**{{love_day.DATA}}**天
-      
-      {{birthday_message.DATA}}
-      
-      ---
-
-      {{course_schedule.DATA}}
-      
-      {{moment_copyrighting.DATA}}
 
   },
   {

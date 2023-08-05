@@ -106,13 +106,15 @@ const TEMPLATE_CONFIG = [
       
       城市：{{city.DATA}}
       
-      天气：{{weather.DATA}}
+      天气：{{tian_api_weather_weather_0.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温(最高/最低):{{tian_api_weather_highest_0.DATA}} / {{tian_api_weather_lowest_0.DATA}}
+
+      降雨概率：{{tian_api_weather_pop_0.DATA}}
       
-      风向: {{wind_direction.DATA}}
+      风向: {{tian_api_weather_wind_0.DATA}}
       
-      风级: {{wind_scale.DATA}}
+      风级: {{tian_api_weather_windsc_0.DATA}}
 
      `
   },

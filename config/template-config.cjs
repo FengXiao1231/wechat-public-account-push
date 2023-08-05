@@ -114,6 +114,7 @@ const TEMPLATE_CONFIG = [
       
       风级: {{wind_scale.DATA}}
 
+     `
   },
   {
     id: '0002',

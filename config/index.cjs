@@ -94,9 +94,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '倾倾宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU24619TcEcGK7fD5EOxZadkN3RUy6epCVXgv2Dl',
+      id: 'PDU24601T3ZtnbhSlpocOYzZL7NZFfPJ5gnhwLRzG',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
+      useTemplateId: '0001','0002'
       province: '安徽',
       city: '合肥',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -127,7 +127,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '0002',
+  CALLBACK_TEMPLATE_ID: '0003',
 
   CALLBACK_USERS: [
     {

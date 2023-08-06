@@ -111,7 +111,7 @@ const TEMPLATE_CONFIG = [
   },
   {
     id: '0002',
-    title: '亲爱的倾倾宝贝, 早上好鸭',
+    title: '亲爱的老公, 早上好鸭',
     desc: `
       **{{date.DATA}}**
       
@@ -123,7 +123,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      宝贝么么哒~
+      老公么么哒~
       
       今天是我们在一起的第**{{love_day.DATA}}**天
       

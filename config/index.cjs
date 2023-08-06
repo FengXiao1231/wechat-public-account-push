@@ -94,7 +94,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '倾倾宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU24601T3ZtnbhSlpocOYzZL7NZFfPJ5gnhwLRzG',
+      id: 'PDU24619TcEcGK7fD5EOxZadkN3RUy6epCVXgv2Dl',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       province: '安徽',
@@ -139,11 +139,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '倾倾宝贝', year: '2002', date: '11-13',
+          type: '*生日', name: '老公', year: '2002', date: '11-13',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '倾倾宝贝', year: '2002', date: '12-16',
+          type: '生日', name: '老公', year: '2002', date: '12-16',
         },
         {
           type: '节日', name: '一周年纪念日', year: '2023', date: '12-31',
